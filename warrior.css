@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'kfp';
+    src: url('fonts/KungFuPandaRegular-xYjV.ttf');
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.parallax {
+	scroll-margin-top: 80px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'kfp';
+	transition: 0.3s ease;
+}
+.topnav {
+	display: flex;
+	justify-content: center;
+	background-color:#1A1A1A;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  .topnav a {
+	float: left;
+	color:black;
+	text-align: center;
+	color: #F2F2F2;
+	padding: 30px 20px;
+	text-decoration: none;
+	font-size: 20px;
+  }
+  .topnav a:hover {
+	background-color: #C9302C;
+	color: #F2F2F2;
+  }
+  h2{
+	color: #C9302C;
+	padding: 30px;
+}
+h3{
+	font-family: 'Courier New', Courier, monospace;
+	margin-top: 2vh;
+}
+
+h4{
+	font-family: monospace;
+	margin-top: 2vh;
+	font-style: italic;
+	font-size: 20px;
+}
+ul{
+	font-family: monospace ;
+}
+.parallax{
+	min-height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+.img1{
+	background-image: url(images/gold_yellow.jpg);
+}
+.img2{
+	background-image: url(images/banner_red.jpg);
+}
+.img3{
+	background-image: url(images/imperial_jade.jpg);
+}
+.message{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 80%;
+	border-radius: 5px;
+	padding: 10px;
+}
+.blackbox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:black;
+}
