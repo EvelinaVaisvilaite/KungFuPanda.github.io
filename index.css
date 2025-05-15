@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url('images/red_spiral.jpg');
+    background-image: url('red_spiral.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
